@@ -2,10 +2,10 @@ format = """\
 [╭╴](fg:arrow)\
 $username\
 $os\
-$git_branch\
 (\
     $directory\
 )\
+$git_branch\
 ()
 [╰─](fg:arrow)$character\
 """
@@ -20,7 +20,7 @@ palette = "normal"
 
 [palettes.normal]
 arrow = "#333533"
-os = "#41b367"
+os = "#afafff"
 os_admin = "#e4ff1a"
 directory = "#9ffff5"
 time = "#bdfffd"
